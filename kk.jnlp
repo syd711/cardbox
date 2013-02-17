@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" 
+    codebase="http://www.matthias-faust.de/kk/" 
+    href="kk.jnlp">
+    <information>
+        <title>Karteikasten</title>
+        <vendor>Matthias Faust</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar eager="true" href="Karteikasten_mysql.jar" main="true" />
+        <jar eager="true" href="mysql-connector-java-5.0.4-bin.jar" main="false" />
+    </resources>
+    <application-desc
+         name="Karteikasten"
+         main-class="de.mf.cardbox.ControllerCardBox"
+         width="300"
+         height="300">
+     </application-desc>
+	<security>
+   <all-permissions/>
+</security> 
+
+     <update check="background"/>
+</jnlp>	

@@ -1,0 +1,7 @@
+CREATE TABLE KARTEIKASTEN (
+  LETTER            	VARCHAR(5),
+  TITLE            	VARCHAR(1000),
+  TEXT            	VARCHAR(5000),
+  DB            	VARCHAR(255),
+  PRIMARY KEY (TITLE)
+  );
