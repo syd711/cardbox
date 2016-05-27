@@ -1,7 +1,9 @@
 CREATE TABLE KARTEIKASTEN (
   LETTER            	VARCHAR(5),
-  TITLE            	VARCHAR(1000),
-  TEXT            	VARCHAR(5000),
-  DB            	VARCHAR(255),
+  TITLE            	VARCHAR(200),
+  TEXT            	VARCHAR(200),
+  DB            	VARCHAR(50),
+  RATING            INT,
+  ENTRY_GROUP       VARCHAR(200),
   PRIMARY KEY (TITLE)
-  );
+  ) DEFAULT CHARACTER SET=utf8;
